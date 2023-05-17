@@ -1,0 +1,61 @@
+.intro-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/Blue-and-purple-abstract-background_1920x1080.jpg");
+  background-size: cover;
+  background-position: top center;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  max-width: 600px;
+}
+
+.intro-text h1 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.intro-text h2 {
+  color: white;
+  font-size: 2rem;
+  margin-top: 0;
+}
+.intro-social {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.intro-social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.intro-social a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}

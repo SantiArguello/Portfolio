@@ -1,0 +1,11 @@
+.container-proyects{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/Blue-and-purple-abstract-background_1920x1080.jpg");
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  overflow: auto;
+}

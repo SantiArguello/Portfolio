@@ -1,0 +1,57 @@
+.container-about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/Blue-and-purple-abstract-background_1920x1080.jpg");
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  overflow: auto;
+}
+
+
+.about-text {
+  margin-top: 10rem;
+  margin-left: 9rem;
+  font-size: 23px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-content {
+  display: inline-block;
+  width: 60%;
+  margin-top: 25rem;
+}
+
+.about-image {
+ margin-top: 10rem;
+}
+
+.technologies {
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+}
+
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+ margin: 15px;
+ 
+}
+
+.tech-icons a {
+  color: white;
+  font-size: 2rem;
+  margin: 20px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.tech-icons a:hover {
+  transform: scale(1.2);
+  background-color: rgb(130, 41, 148);
+}
