@@ -1,11 +1,82 @@
-.container-proyects{
-  height: 100vh;
+.container-proyects {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
   background-image: url("../../assets/Blue-and-purple-abstract-background_1920x1080.jpg");
   background-size: cover;
   background-position: top center;
   width: 100%;
   overflow: auto;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.cardP {
+  width: 450px;
+  padding: 1.5rem;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.186);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  transition: box-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardP:hover {
+  box-shadow: 0 9px 15px rgb(0, 0, 0);
+}
+
+.cardP h2 {
+  font-size: 1.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.cardP p {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+.button-container a {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: background-color 0.3s ease-in-out;
+  margin: 1rem;
+}
+
+.button-container a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.cardP img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .cardP {
+    width: 86%;
+    margin-top: 7rem;
+  }
 }

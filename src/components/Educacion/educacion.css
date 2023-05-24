@@ -74,3 +74,22 @@
 .education-item a:hover {
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  .content-wrapper {
+    margin-top: 175rem;
+  }
+
+  .education-card {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .education-item {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .education-item p{
+    font-size: 1.3rem;
+  }
+}

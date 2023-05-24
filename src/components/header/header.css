@@ -56,3 +56,51 @@
 .logo {
   width: 22rem;
 }
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .logo-container {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    order: 2;
+  }
+  
+  .nav-link {
+    margin-left: 1rem;
+    text-decoration: none;
+    font-size: 0.91rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background: linear-gradient(to right, #4b4e6d, #7a77b9, #1f1c54);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    padding: 5px;
+  }
+  
+  .logo {
+    width: 15rem;
+    
+  }
+  
+  
+}
+/* .logo {
+  width: 15rem;
+  margin-bottom: 1rem;
+} */
