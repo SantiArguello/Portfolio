@@ -76,17 +76,17 @@
 }
 @media (max-width: 768px) {
   .content-wrapper {
-    margin-top: 243rem;
+    margin-top: 164rem;
   }
 
   .education-card {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
   }
 
   .education-item {
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    
   }
 
   .education-item p{
